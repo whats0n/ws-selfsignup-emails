@@ -2,3 +2,5 @@ ProjectTitle: ws-selfsignup-emails
 
 PageList:
 - file: email.html
+- file: email-boost.html
+- file: email-metro.html
