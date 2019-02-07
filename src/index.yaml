@@ -4,3 +4,5 @@ PageList:
 - file: email.html
 - file: email-boost.html
 - file: email-metro.html
+- file: confirmation-1.html
+- file: confirmation-2.html
