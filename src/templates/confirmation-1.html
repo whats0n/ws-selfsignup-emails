@@ -4,53 +4,5 @@ title: Index page
 {% extends "layouts/_layout.html" %}
 
 {% block content %}
-  <table
-    border="0"
-    cellspacing="0"
-    cellpadding="0"
-    width="600"
-    style="table-layout: fixed; padding: 0; margin: 0 auto; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; text-align: center;"
-  >
-    <tr>
-      <td>
-        <table
-          border="0"
-          cellspacing="0"
-          cellpadding="0"
-          width="600"
-          style="table-layout: fixed; padding: 0; margin: 0 auto; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px;"
-        >
-          <tr>
-            <td style="padding-bottom: 20px; font-size: 24px; font-weight: 700;">Thank you for signing up with B2B Soft!</td>
-          </tr>
-          <tr>
-            <td style="padding-bottom: 15px; font-size: 16px;">We’re excited to have you get started. First, before we can complete your registration, we need to confirm the email address you provided. </td>
-          </tr>
-          <tr>
-            <td>
-              <table
-                border="0"
-                cellspacing="0"
-                cellpadding="0"
-                width="600"
-                style="table-layout: fixed; padding: 0; margin: 0 auto; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px;"
-              >
-                <tr>
-                  <td style="padding-bottom: 15px; font-size: 16px;">Please click here to confirm your email:</td>
-                </tr>
-                <tr>
-                  <td>
-                    <a
-                      href="#"
-                      style="display: inline-block; vertical-align: top; padding: 20px; margin: 0; color: #fff; background: {{primaryColor or '#2e99db'}}; font-size: 16px; line-height: 1.2; text-decoration: none;"
-                    >Confirm Registration</a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  {% include 'partials/_confirmation-1.html' %}
 {% endblock %}
